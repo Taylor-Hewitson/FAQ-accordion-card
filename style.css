@@ -1,0 +1,15 @@
+#container{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    position: absolute;
+}
+.card{
+    height: 510px;
+    width: 920px;
+    background-color: beige;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
