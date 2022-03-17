@@ -15,9 +15,9 @@
     
 }
 
-#box{
+.box{
     position: relative;
-    bottom: -310px;
+    bottom: -410px;
     left: 70px;
 }
 
