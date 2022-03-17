@@ -15,6 +15,12 @@
     
 }
 
+#box{
+    position: relative;
+    bottom: -310px;
+    left: 70px;
+}
+
 
 .card{
     height: 510px;
@@ -24,23 +30,33 @@
     position: relative;
     align-self: center;
     flex-direction: row;
-}
-.box{
-    margin-top: 60px;
-    margin-right: 60px;
+    overflow: hidden;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.card-inner{
+    margin-top: 60px;
+    margin-right: 60px;
+    
 }
 
 .women{
     float: left;
     justify-content: center;
+    padding-right: 20px;
+    object-fit: cover;
+    margin: auto;
+    position: absolute;
+    left: -80px; 
 }
 
 .text{
-    text-align: left;
+    text-align: right;
     max-height: 510px;
-    align-items: center;
-  justify-content: center;
-  position: relative;
+    max-width: 460px;
+    align-items: right;
+    float: right;
+    position: relative;
+ 
 }  
