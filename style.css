@@ -12,8 +12,10 @@
     width: 100%;
     height: 100%;
     font-family: 'Kumbh Sans', sans-serif;
-    flex-direction: row;
+    
 }
+
+
 .card{
     height: 510px;
     width: 920px;
@@ -21,7 +23,24 @@
     border-radius: 10px;
     position: relative;
     align-self: center;
+    flex-direction: row;
 }
+.box{
+    margin-top: 60px;
+    margin-right: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.women{
+    float: left;
+    justify-content: center;
+}
+
 .text{
     text-align: left;
-}
+    max-height: 510px;
+    align-items: center;
+  justify-content: center;
+  position: relative;
+}  
